@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+    position: relative;
+}
+
+.chaild1 {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    top: 400px;
+
+}
+
+.chaild2 {
+    width:  400px;
+    height: 400px;
+    background-color: blue;
+    position: absolutes;
+    left: 400px;
+    margin-left: 400px;
+}
