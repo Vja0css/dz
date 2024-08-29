@@ -1,29 +1,92 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.parent {
-    width: 800px;
-    height: 800px;
-    background-color: aqua;
-    position: relative;
+.main {
+    width: auto;
 }
 
-.chaild1 {
-    width: 400px;
-    height: 400px;
-    background-color: brown;
-    position: absolute;
-    top: 400px;
+.menu {
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    padding-right: 200px;
 
 }
 
-.chaild2 {
-    width:  400px;
-    height: 400px;
-    background-color: blue;
-    position: absolutes;
-    left: 400px;
-    margin-left: 400px;
+.more {
+    width: auto;
+    background-image: url("imag/imag/фон.jpg");
+    height: 900px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+
+}
+
+.make {
+    width: 520px;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 61px;
+    padding-bottom: 50px; 
+}
+
+strong {
+    font-size: 54px;
+    color: #6F2CFF;
+    
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contaner {
+    width: 1340;
+    margin: 0 auto;
+    
+}
+
+.app {
+    display: flex;
+    padding-top: 7px;
+    gap: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app ul {
+    list-style: none;
+    
+} 
+
+.app a {
+    color: black;
+    text-decoration: none;
+    padding-right :55px;
+}
+
+.app button {
+    height: 40px;
+    width: 157px;
+    border-radius:20px ;
+    border: none;
+    background-color: #6F2CFF;
+    color: white;
+    cursor: pointer;
+    left: 100px;
+}
+
+.app img {
+    padding-left: 100px;
 }
